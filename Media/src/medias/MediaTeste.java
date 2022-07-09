@@ -1,3 +1,8 @@
+/**
+ * Escreva uma classe chamada TesteMedia. Esta deve ser a classe principal que testa a classe Media do código da Questão 5.
+ * Este novo programa deve apresentar na tela o valor das médias da aluna Maria, com notas 6,23 e 4,12 nas provas; e de Marco,
+ * com notas 6,27 e 5,40.
+*/
 package medias;
 import javax.swing.JOptionPane;
 public class MediaTeste {
@@ -13,7 +18,7 @@ public class MediaTeste {
        double mediaMaria = mediaDeMaria.calcularMedia();
        JOptionPane.showMessageDialog(null, "Média da Maria: " + mediaMaria);
        double mediaMarco = mediaDeMarco.calcularMedia();
-        System.out.println("Média do Marco: " + mediaMarco);
+       System.out.println("Média do Marco: " + mediaMarco);
         
     } 
 }
